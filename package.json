@@ -1,5 +1,5 @@
 { "homepage": "https://DuJokic.github.io/Infomark",
-  "name": "Infomark",
+  "name": "infomark",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
