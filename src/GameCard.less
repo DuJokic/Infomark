@@ -1,0 +1,77 @@
+.gameCard {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: #FFFFF1;
+    border: 0;
+    filter: drop-shadow(3px 10px 20px #403836);
+    border-radius: 20px;
+    
+    .gameCard_header {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        
+        .gameCard_image {
+            height: 300px;
+            width: 300px;
+            border-top-left-radius: 20px;
+        }
+        
+        .gameCard_headerRight {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            height: 100%;
+            padding-right: 30px;
+            
+            .released {
+                color: brown;
+                margin-top: 20px;
+            }
+            
+            .price {
+                
+                h3 {
+                    text-decoration: line-through;
+                    color: dimgray;
+                }
+            }
+
+            .gameCard_button {
+                font-weight: bolder;
+                font-size: medium;
+            }
+            
+            .gameCard_console {
+                width: 40%;
+                height: 40%;
+                object-fit: contain;
+            }
+        }        
+        
+    }
+
+    .divider {
+        margin: 0;     
+    }
+
+    .gameCard_title {
+        padding: 30px 30px 0px 30px;
+    }
+    
+    .gameCard_description {
+        padding: 30px;
+    }
+    
+    &:hover {
+        top: 5px;
+        left: 5px;
+    }
+}

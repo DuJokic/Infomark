@@ -1,0 +1,288 @@
+@import "google-fonts.css";
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #712341;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header .header_logo {
+  height: 40px;
+  flex: 0.2;
+  object-fit: contain;
+}
+.header .header_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 0.8;
+}
+.header .header_buttons .link {
+  text-decoration: none;
+  flex: 1;
+  color: black;
+}
+.footer {
+  background-color: #751933;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.footer h2 {
+  color: bisque;
+}
+.footer .footer_copyright {
+  background-color: black;
+  color: grey;
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+.gameCard {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+  margin-bottom: 50px;
+  background-color: #FFFFF1;
+  border: 0;
+  filter: drop-shadow(3px 10px 20px #403836);
+  border-radius: 20px;
+}
+.gameCard .gameCard_header {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.gameCard .gameCard_header .gameCard_image {
+  height: 300px;
+  width: 300px;
+  border-top-left-radius: 20px;
+}
+.gameCard .gameCard_header .gameCard_headerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+  padding-right: 30px;
+}
+.gameCard .gameCard_header .gameCard_headerRight .released {
+  color: brown;
+  margin-top: 20px;
+}
+.gameCard .gameCard_header .gameCard_headerRight .price h3 {
+  text-decoration: line-through;
+  color: dimgray;
+}
+.gameCard .gameCard_header .gameCard_headerRight .gameCard_button {
+  font-weight: bolder;
+  font-size: medium;
+}
+.gameCard .gameCard_header .gameCard_headerRight .gameCard_console {
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
+}
+.gameCard .divider {
+  margin: 0;
+}
+.gameCard .gameCard_title {
+  padding: 30px 30px 0px 30px;
+}
+.gameCard .gameCard_description {
+  padding: 30px;
+}
+.gameCard:hover {
+  top: 5px;
+  left: 5px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+}
+.about .left {
+  flex: 0.2;
+}
+.about .center {
+  flex: 0.6;
+}
+.about .right {
+  flex: 0.2;
+}
+@media only screen and (max-width: 1300px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    width: 600px;
+    flex: auto;
+    border-radius: 20px;
+  }
+  .center {
+    flex: auto;
+  }
+  .right {
+    width: 600px;
+    flex: auto;
+    border-radius: 20px;
+  }
+}
+.newsletter_header {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter_input_container .newsletter_input_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.newsletter_input_container .inputField {
+  font-size: larger;
+  margin-bottom: 10px;
+}
+.rightSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #FFFFF1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  flex: 0.25;
+  margin: 20px 0;
+  filter: drop-shadow(3px 10px 20px #403836);
+  padding: 0 30px;
+}
+@media only screen and (max-width: 1300px) {
+  .rightSidebar {
+    width: 600px;
+    flex: auto;
+    border-radius: 20px;
+    padding: 40px;
+  }
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.4;
+  filter: drop-shadow(3px 10px 20px #403836);
+}
+.location .location_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFF1;
+  padding: 0 40px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+.location .location_container .googlemaps {
+  margin-bottom: 30px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+.navbar .navbar_icon {
+  color: bisque;
+  font-size: larger !important;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.navbar .navbar_title {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Orbitron";
+  margin-bottom: 5px;
+}
+.navbar:hover {
+  background-color: #751933;
+  cursor: pointer;
+}
+.navbar:hover > .navbar_icon {
+  color: black;
+}
+.navbar:hover > .navbar_title {
+  color: bisque;
+  font-weight: bold;
+}
+.recommendedGames {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.treeMenu-Container {
+  margin: 30px 0;
+  position: relative;
+}
+.treeMenu-Container h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.treeMenu-Container .dropdown-container {
+  margin-left: 30px;
+}
+.treeMenu-Container .dropdown-container .dropdown-btn {
+  cursor: pointer;
+}
+.treeMenu-Container .dropdown-container .dropdown {
+  background-color: #FFFFF1;
+  border-radius: 20px;
+  width: 300px;
+  top: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 950px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.treeMenu-Container .dropdown-container .dropdown .dropdown-item {
+  background-color: #FFFFF1;
+  border-radius: 20px;
+  width: 100%;
+  font-weight: 600;
+}
+.treeMenu-Container .dropdown-container .dropdown .dropdown-item p {
+  padding: 5px;
+}
+.treeMenu-Container .dropdown-container .dropdown::-webkit-scrollbar {
+  display: none;
+}
+.app hr {
+  background-color: grey;
+  border: 0;
+  height: 1px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.app .about {
+  display: flex;
+  justify-content: space-between;
+}
+.app .control-prev {
+  width: 80px;
+}
+.app .control-next {
+  width: 80px;
+}
+/*# sourceMappingURL=App.css.map */

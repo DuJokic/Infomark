@@ -1,0 +1,20 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.4;
+  filter: drop-shadow(3px 10px 20px #403836);
+}
+.location .location_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFF1;
+  padding: 0 40px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+.location .location_container .googlemaps {
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=Location.css.map */

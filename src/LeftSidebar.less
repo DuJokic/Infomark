@@ -1,0 +1,67 @@
+.leftSidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #FFFFF1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex: 0.25;
+    margin: 20px 0;
+    filter: drop-shadow(3px 10px 20px #403836);
+    padding: 0 30px;
+    
+    .workingHours_Monday {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .workingHours_Tuesday {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .workingHours_Wednesday {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .workingHours_Thirsday {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .workingHours_Friday {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .workingHours_Saturday {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    
+    .email {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .phone {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+@media only screen and (max-width: 1300px) {
+    .leftSidebar {
+        width: 600px;
+        flex: auto;
+        border-radius: 20px;
+        padding: 40px;
+    }
+}

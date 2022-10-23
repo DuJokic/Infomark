@@ -1,0 +1,14 @@
+.newsletter_header {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter_input_container .newsletter_input_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.newsletter_input_container .inputField {
+  font-size: larger;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=InputForm.css.map */

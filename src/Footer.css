@@ -1,0 +1,20 @@
+.footer {
+  background-color: #751933;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer h2 {
+  color: bisque;
+}
+.footer .footer_copyright {
+  background-color: black;
+  color: grey;
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Footer.css.map */

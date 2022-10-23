@@ -1,0 +1,51 @@
+.treeMenu-Container {
+    margin: 30px 0;
+    position: relative;
+
+    h1 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .dropdown-container {
+        margin-left: 30px;
+        
+        .dropdown-btn {
+            cursor: pointer;
+        }
+
+        .dropdown {
+            background-color: #FFFFF1;
+            border-radius: 20px;
+            width: 300px;
+            top: 80px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            max-height: 950px;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+
+            .msg {
+            }
+    
+            .dropdown-item {
+                background-color: #FFFFF1;
+                border-radius: 20px;
+                width: 100%;
+                font-weight: 600;
+
+                p {
+                    padding: 5px;
+                }
+            }
+
+        }
+        .dropdown::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
