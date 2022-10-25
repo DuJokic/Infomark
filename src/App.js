@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/index.html"
+            path="/"
             element={
               <>
                 <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} stopOnHover={false} className="carousel" height="900px">
